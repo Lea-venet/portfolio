@@ -1,0 +1,120 @@
+/*GENERAL*/
+body {
+    background-color: #0f083c;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    color: whitesmoke;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+/*header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Slabo 27px';
+    color: whitesmoke;
+    font-size: 2rem;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+header nav a {
+    font-family: 'Slabo 27px';
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2rem;    
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*Banner*/
+#banner {
+    padding-bottom: 350px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://wallpaperaccess.com/full/2183784.jpg);
+}
+#banner div {
+    margin-top: 300px;
+    display: flex;
+    margin-left: 35%;
+    width: 25%;
+}
+#banner div hr {
+    border: rgb(160, 0, 0) 3px solid;
+}
+#banner div h1 {
+    font-family: 'Lemonada';
+    line-height: 50px;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+/*presentation*/
+#presentation {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+#presentation h1 {
+    text-align: center;
+    font-family: 'Slabo 27px';
+    font-size: 2rem;
+}
+#presentation > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+#presentation > div > div:first-child {
+    display: flex;
+    background-color: #00000055;
+    width: 70%;
+    height: 100%;
+}
+#presentation > div > div:first-child hr {
+    border: rgb(160, 0, 0) 3px solid;
+    height: 250px;
+}
+#presentation > div > div:first-child p {
+    font-size: 1.5rem;
+    padding: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+#presentation > div > div:last-child {
+    background-color: #00000055;
+    width: 15.5%;
+    height: 15.5%;
+}
+#presentation > div > div:last-child img{
+    position: relative;
+    width: 100%;
+}
+/*Réalisations*/
+#realisations {
+    background-color: #2d2754;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#realisations  h1 {
+    text-align: center;
+    font-family: 'Slabo 27px';
+    font-size: 2rem;
+}   
+#realisations > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+}
+#realisations img {
+    width: 31%;
+    padding: 5px;
+}
